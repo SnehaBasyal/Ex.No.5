@@ -1,38 +1,58 @@
 
+## EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
-# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
+### Date:
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+### Reg no: 212222240101
 
-### AI Tools Required: 
-
-# Explanation: 
-Define the Two Prompt Types:
-
-Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Based on that pattern type refined the prompt and submit that with AI tool.
-Get the ouput and write the report.
-
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+### Aim: 
+To test and compare how different pattern models respond to various prompts (broad or unstructured) versus 
+basic prompts (clearer and more refined) across multiple scenarios. Analyze the quality, accuracy, and depth of the generated responses 
 
 
-# OUTPUT
+### AI Tool Used:
 
-# RESULT: The prompt for the above said problem executed successfully
+ChatGPT
+
+### Procedure:
+
+1. Selected four scenarios:
+   
+    • Generating a creative story
+   
+    • Answering a factual question
+   
+    • Summarising a concept
+   
+    • Providing advice/recommendations
+   
+3. For each scenario, created a **naïve prompt** (broad, unstructured) and a **refined prompt** (clear, detailed, structured).
+   
+4. Ran both prompts through ChatGPT and recorded the responses.
+   
+5. Compared outputs on quality, accuracy, and depth.
+
+### Results – ChatGPT Outputs:
+
+<img width="1165" height="750" alt="{F3D7A071-C1C3-459B-A18C-298E5C368E2B}" src="https://github.com/user-attachments/assets/bc9d8b9e-88af-4405-80b6-630e503e2f56" />
+
+
+### Evaluation Scores (out of 5):
+
+| Scenario                 | Quality (Naïve / Refined) | Accuracy (Naïve / Refined) | Depth (Naïve / Refined) |
+| ------------------------ | ------------------------- | -------------------------- | ----------------------- |
+| Creative Story           | 2 / 5                     | 2 / 5                      | 1 / 5                   |
+| Factual Question         | 3 / 5                     | 5 / 5                      | 2 / 5                   |
+| Summarising Concept      | 2 / 5                     | 5 / 5                      | 2 / 5                   |
+| Advice / Recommendations | 1 / 5                     | 5 / 5                      | 1 / 5                   |
+
+
+### Analysis:
+
+* Naïve prompts gave short, generic answers without context or examples.
+* Refined prompts generated longer, detailed, scenario-specific outputs, often including examples, moral lessons or actionable steps.
+* The improvement was most dramatic for creative and advice scenarios. Even in factual questions, structured prompts ensured bullet points and relevant examples.
+
+
+### Result: 
+The prompt for the above said problem executed successfully
